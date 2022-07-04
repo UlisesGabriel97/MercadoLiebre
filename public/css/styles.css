@@ -1,9 +1,2 @@
-/* Header */
-.logo{
-    max-width: 150px;
-    text-align: left;
-}
-/* Main */
-img{
-    width: 250px;
-}
+@import url(./home.css);
+@import url(./variables.css);
