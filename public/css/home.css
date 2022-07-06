@@ -24,9 +24,6 @@ header p{
 header p.slogan{
     text-align: center;
 }
-header p.slogan i{
-    margin-right: 5px;
-}
 header ul{
     list-style: none;
     padding-left: 0;
@@ -49,10 +46,6 @@ header div i.fas.fa-bars{
     background-color: var(--Celeste);
     border:solid 6px var(--Celeste);
     border-radius: 4px;
-}
-header div img.banner{
-    max-width: 100%;
-    border: 0;
 }
 
 /* Main */
@@ -79,8 +72,17 @@ main section article h4{
 /* Footer */
 
 footer{
-    text-align: center;
     background-color: white;
+}
+footer section{
+    text-align: center;
+    padding: 0 50px;
+}
+footer section h4{
+    color: var(--GrisOscuro);
+}
+footer section p{
+    color: var(--GrisOscuro);
 }
 footer section div{
     font-size: 2em;
@@ -90,7 +92,7 @@ footer section div{
 footer section div i{
     margin-top: 20px;
 }
-footer h4.Copyright{
-    text-align: left;
+footer p.Copyright{
+    color: var(--GrisOscuro);
     padding: 15px;
 }
