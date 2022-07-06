@@ -1,0 +1,6 @@
+body{
+    background-color: var(--GrisClaro);
+    font-family: var(--fuente);
+    width: 97%;
+    margin: 0 auto;
+}

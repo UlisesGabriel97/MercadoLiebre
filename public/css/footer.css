@@ -1,0 +1,35 @@
+footer{
+    background-color: white;
+}
+footer section{
+    text-align: center;
+    padding: 0 50px;
+}
+footer section h4{
+    color: var(--GrisOscuro);
+}
+footer section p{
+    color: var(--GrisOscuro);
+}
+footer section div{
+    font-size: 2em;
+    color: var(--Celeste);
+    margin-bottom: 10px;
+}
+footer section div i{
+    margin-top: 20px;
+}
+footer p.Copyright{
+    color: var(--GrisOscuro);
+    padding: 15px;
+}
+
+/* Tablet */
+@media (min-width:461px){
+
+}
+
+/* Desktop */
+@media (min-width:769px){
+
+}
