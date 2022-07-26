@@ -1,64 +1,132 @@
-header{
+header {
     background-color: var(--Amarillo);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-header div img.logo{
-    max-width: 35%;
-    padding: 25px 0px 15px 25px;
+
+header div.logo {
+    width: 50%;
+    padding: 20px;
 }
-header div input{
+
+header div.search {
+    width: 50%;
+    margin: auto 0;
+}
+
+header div.search input {
     background-color: white;
+    width: 85%;
+    font-size: 13px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: none;
 }
-header .search{
-    margin-left: 20px;
+
+header div.search button {
+    border-radius: 5px;
+    border: none;
+    padding: 4px 5px;
 }
-header p{
+
+header p {
     font-size: 12px;
-}
-header p.slogan{
+    width: 100%;
     text-align: center;
 }
-header nav ul{
+
+header nav ul {
     list-style: none;
-    padding-left: 0;
     display: none;
 }
-header nav ul li a{
+
+header nav ul li a {
     color: black;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
 }
-header nav ul li a i{
+
+header nav ul li a i {
     margin-left: 5px;
 }
-header div.burger-menu{
+
+header div.burger-menu {
     text-align: center;
     font-size: 14px;
-    padding: 5px 0 20px;
+    margin: 20px 0 20px;
+    width: 100%;
 }
-header div i.fas.fa-bars{
+
+header div i.fas.fa-bars {
     color: white;
     background-color: var(--Celeste);
-    border:solid 6px var(--Celeste);
+    border: solid 6px var(--Celeste);
     border-radius: 4px;
 }
 
 /* Tablet */
-@media (min-width:461px){
-    header nav ul{
-        display: block;
+@media (min-width:461px) {
+    header div.logo {
+        width: 33%;
+        padding: 30px 20px;
     }
-    header div.burger-menu{
+
+    header div.search {
+        width: 33%;
+    }
+
+    header p {
+        width: 33%;
+        margin: auto 0;
+        font-size: 13px;
+        text-align: start;
+    }
+
+    header nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    header nav ul.productos {
+        justify-content: start;
+    }
+    header nav ul.usuario {
+        justify-content: end;
+    }
+    header nav ul li{
+        padding: 0 15px;
+    }
+
+
+    header div.burger-menu {
         display: none;
     }
 }
 
 /* Desktop */
-@media (min-width:769px){
-    header nav ul{
-        display: block;
+@media (min-width:769px) {
+    header div.logo {
+        width: 40%;
     }
-    header div.burger-menu{
-        display: none;
+    header div.search {
+        width: 30%;
     }
 
+    header p {
+        width: 30%;
+        font-size: 15px;
+    }
+header nav ul li a {
+    font-size: 16px;
+}
+header nav ul li{
+    padding: 0 20px;
+}
 }
