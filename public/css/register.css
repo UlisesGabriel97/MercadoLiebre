@@ -1,0 +1,56 @@
+.register{
+    max-width: 550px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.register h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.register form div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 25px 0;
+}
+.register form div input,
+.register form div select{
+    margin: 8px 0;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+.register form div small{
+    font-weight: bold;
+    color: var(--Celeste);
+}
+.register form .checkbox{
+    display: block;
+}
+.register form .checkbox input{
+    margin-right: 10px;
+}
+
+.register form .enviar{
+    display: block;
+    text-align: center;
+}
+.register form .enviar button{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
+}
+.register form .enviar .submit{
+    background-color: var(--Amarillo);
+}
+.register form .enviar .reset{
+    background-color: hsla(216, 83%, 42%, 0.76);
+}
+.register a{
+    display: block;
+    text-align: center;
+}
+

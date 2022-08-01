@@ -6,6 +6,12 @@
 body{
     background-color: var(--GrisClaro);
     font-family: var(--fuente);
+}
+main{
     width: 97%;
     margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
 }

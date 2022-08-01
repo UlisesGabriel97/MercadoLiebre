@@ -8,7 +8,7 @@ const connectLivereload = require('connect-livereload')
 const path = require('path')
 
 const app=express()
-const port=3000
+const port=3001
 
 /* Archivos estaticos */
 app.use(express.static(path.resolve(__dirname,"public")))
@@ -19,6 +19,8 @@ app.use(connectLivereload());
 
 /* Rutas */
 app.get("/",(req,res)=>res.sendFile(path.resolve(__dirname,"views","home.html")))
+app.get("/register",(req,res)=>res.sendFile(path.resolve(__dirname,"views","register.html")))
+app.get("/login",(req,res)=>res.sendFile(path.resolve(__dirname,"views","login.html")))
 
 /* Funcion de actualizacion del servidor */
 liveReloadServer.server.once("connection", () => {

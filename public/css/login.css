@@ -1,0 +1,46 @@
+.login{
+    max-width: 550px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.login h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.login form div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 25px 0;
+}
+.login form div input{
+    margin: 8px 0;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+.login form div small{
+    font-weight: bold;
+    color: var(--Celeste);
+}
+.login form .recordarme{
+    display: block;
+    text-align: center;
+}
+.login form .enviar{
+    display: block;
+    text-align: center;
+}
+.login form .enviar button{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: var(--Amarillo);
+}
+.login a{
+    display: block;
+    text-align: center;
+}
