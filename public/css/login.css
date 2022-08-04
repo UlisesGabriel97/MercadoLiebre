@@ -44,3 +44,9 @@
     display: block;
     text-align: center;
 }
+@media (min-width:461px){
+    .login form .enviar button:hover{
+        background-color: #0022AA;
+        transition: all 200ms;
+    }
+}

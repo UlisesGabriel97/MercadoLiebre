@@ -26,7 +26,23 @@ footer p.Copyright{
 
 /* Tablet */
 @media (min-width:461px){
-
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer section{
+        width: 31%;
+        padding: 0 10px;
+        margin: 10px 0;
+    }
+    footer p{
+        width: 100%;
+    }
+    footer section div i:hover{
+        color: var(--Amarillo)
+    }
+    
 }
 
 /* Desktop */

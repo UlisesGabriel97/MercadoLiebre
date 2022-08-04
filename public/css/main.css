@@ -51,10 +51,11 @@
 
 /* Tablet */
 @media (min-width:461px){
-    .home section article{
+    .home section article:hover{
         box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
     }
-    .home section article div h4{
+
+    .home section article:hover > div h4{
         display: block;
     }
     .home section{
@@ -68,17 +69,14 @@
     .home section article{
         width: 45%;
     }
-
+    .home section article:hover > div i{
+        transform: rotate(-90deg);
+        transition: all 800ms ;
+    }
 }
 
 /* Desktop */
 @media (min-width:769px){
-    .home section article{
-        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
-    }
-    .home section article div h4{
-        display: block;
-    }
     .home section article{
         width: 30%;
     }
